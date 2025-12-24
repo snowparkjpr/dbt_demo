@@ -10,5 +10,13 @@ models:
         data_tests:
           - unique
           - not_null
+  - name: orders
+    description: "customer orders "
+    columns:
+      - name: order_id
+        description: "Primary key for the orders table"
+        tests:
+          - unique
+          - not_null
 
   
